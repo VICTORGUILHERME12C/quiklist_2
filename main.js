@@ -35,3 +35,5 @@ items.map((item, index) => {
     </div>
   `
 })
+localStorage.setItem("items", JSON.stringify(items))
+}
