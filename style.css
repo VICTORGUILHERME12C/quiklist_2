@@ -54,3 +54,10 @@ header h1 {
   color: var(--content-primary);
   line-height: 33.2rem;
 }
+main {
+  max-width: 62.7rem;
+  margin: auto;
+}
+.add-item {
+  margin-bottom: 4rem;
+}
