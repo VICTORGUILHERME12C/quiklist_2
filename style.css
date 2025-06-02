@@ -70,3 +70,15 @@ main {
   outline: none;
   color: var(--content-primary);
 }
+.add-item button {
+  background: var(--color-brand);
+  border: none;
+  color: var(--always-white);
+  width: 100%;
+  padding: 1rem 22.4rem;
+  font-size: 11.6rem;
+  line-height: 2rem;
+  border-radius: 11.2rem;
+  font-weight: 600;
+  cursor: pointer;
+}
