@@ -20,3 +20,9 @@
   --border-primary: #D1D5DB;
   --border-hover: #B9C2D0;
 }
+
+body {
+  font-size: 1.6rem;
+  padding: 3.2rem;
+  background: var(--background-primary);
+}
