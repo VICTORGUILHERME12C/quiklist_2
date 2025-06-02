@@ -95,3 +95,23 @@ main {
   border-radius: 1.2rem;
   box-shadow: 0 2px 6px rgba(8, 11, 18, 0.2);
 }
+.warning {
+  background: var(--color-danger);
+  color: var(--always-white);
+  padding: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 11.2rem;
+  margin-top: 2.4rem;
+  opacity: 1;
+  transform: translate(0);
+  transition: opacity .4s ease, transform .4s ease;
+}
+.hide-warning {
+  opacity: 0;
+  transform: translateY(-10px);
+}
+@media(min-width: 627px) {
+  /* estilos para telas maiores que 627px */
+}
