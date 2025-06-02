@@ -52,3 +52,9 @@ function removeItem(itemName) {
 function addHideWarningClass() {
   document.querySelector(".warning").classList.add("hide-warning")
 }
+  const item = items.find((item) => item.name === itemName)
+  if (item) {
+    item.checked = !item.checked
+    showItemsList()
+  }
+}
